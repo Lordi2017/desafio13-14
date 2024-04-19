@@ -1,0 +1,194 @@
+
+@media screen and (min-width:500px) {
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: "Roboto";
+    list-style-type: none;
+}
+
+/***********CSS PARA DESKTOPS***********/
+
+/*******HEADER*********/
+
+#header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px;
+}
+
+.codar{
+    color: #d6000e;
+    font-weight: 600;
+    font-style: italic;
+    font-size: 3rem;
+    margin-left: 20px;
+}
+
+.ponto-codar{
+    color: rgb(0, 0, 0); 
+    font-size: 3rem;
+}
+
+#nav{
+    margin-right: 50px;
+}
+
+a{
+    margin-left: 1.5rem;
+    color: black;
+    font-weight: 500;
+}
+
+.button-nav{
+    color: white;
+    background-color: #d6000e;
+    width: 120px;
+    padding: 10px;
+    border: #d6000e;
+    border-radius: 9px;
+    font-size: 15px;
+    margin-left: 1.5rem;
+    cursor: pointer;
+}
+
+/************Seção 1 **************/
+.section1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 100px 100px 100px 0;
+}
+
+.image{
+    width: 600px;
+    margin-right: 5rem;
+}
+
+span{
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+h1{
+    color: #d6000e;
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.button-section{
+    width: 250px;
+    margin-top: 40px;
+    padding: 10px;
+    background-color: #d6000e;
+    color: white;
+    border: none;
+    border-radius: 9px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+/*****SECTION 2, LISTA E IMAGEM*******/
+#section2{
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+    margin: 100px 0 200px 100px;
+}
+
+.vector-check{
+   position: relative; top: 5px;
+    margin-right: 20px;
+}
+
+ul{font-size: 1.3rem;}
+
+li{padding: 5px;}
+
+/***********FORMULÁRIO***********/
+#form{
+    position: relative; 
+    bottom: 280px;
+    left: 230px;
+    width: 500px;
+}
+
+input{
+    background: #d3d3d3;
+    width: 200px;
+    margin-top: 40px;
+    padding: 10px;
+    color: white;
+    border: none;
+    border-radius: 9px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.button-form{
+    width: 200px;
+    margin-top: 40px;
+    margin-left: 5px;
+    padding: 10px;
+    background-color: #d6000e;
+    color: white;
+    border: none;
+    border-radius: 9px;
+    font-weight: 500;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+/*****SEÇÃO 3 -- CARDS********/
+.section3{
+    
+    diSplay: flex;
+    align-items: center;
+    margin-left: 100px;
+    position: relative; bottom: 100px;
+}
+article{
+    display: flex;
+    width: 550px;
+    height: 200px;
+    padding: 2rem;
+    background: #d3d3d3;
+    border-radius: 10px;
+    margin-right: 50px;
+}
+
+p{margin: 10px 0 0 25px;}
+
+h2, strong{margin: 10px 0 0 25px;}
+
+/**************FOOTER**************/
+
+#footer{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 100px 0 100px 0;
+}
+
+em{
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.icones-footer{
+
+    margin-top: 10px;
+    margin-left: 40px;
+}
+.img-footer{
+    margin-left: 10px;
+    
+}  
+}
+
+
+
